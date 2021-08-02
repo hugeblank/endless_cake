@@ -1,0 +1,10 @@
+{
+  "parent": "endless_cake:block/template_endless_cake_with_candle",
+  "textures": {
+    "candle": "minecraft:block/candle_lit",
+    "bottom": "endless_cake:block/endless_cake_bottom",
+    "side": "endless_cake:block/endless_cake_side",
+    "top": "endless_cake:block/endless_cake_top",
+    "particle": "endless_cake:block/endless_cake_side"
+  }
+}

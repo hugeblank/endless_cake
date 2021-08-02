@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.elexi.hugeblank.endless_cake.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "CandleCakeBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

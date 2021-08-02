@@ -1,9 +1,5 @@
-# Fabric Example Mod
+# Endless Cake
 
-## Setup
+A Minecraft mod for Fabric that adds an infinite cake at the cost of the dragon egg.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Cake texture created by [ChocolateFrog18](http://chocolatefrog.art)

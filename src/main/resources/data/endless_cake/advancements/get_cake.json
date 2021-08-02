@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:end/dragon_egg",
+  "display": {
+    "icon": {
+      "item": "endless_cake:endless_cake"
+    },
+    "title": {
+      "translate": "advancements.endless_cake.get_cake.title"
+    },
+    "description": {
+      "translate": "advancements.endless_cake.get_cake.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "endless_cake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "endless_cake:endless_cake"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "endless_cake"
+    ]
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "endless_cake:block/white_candle_endless_cake"
+    },
+    "lit=true": {
+      "model": "endless_cake:block/white_candle_endless_cake_lit"
+    }
+  }
+}
