@@ -25,12 +25,12 @@ class CandleCakeBlockMixin {
 	private CandleCakeBlock endless_cake$cake_original;
 
 	@Inject(at = @At(value = "INVOKE", target = "Ljava/util/Map;put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"), method = "<init>")
-	private void before(Block candle, AbstractBlock.Settings settings, CallbackInfo ci) {
+	private void endless_cake$before(Block candle, AbstractBlock.Settings settings, CallbackInfo ci) {
 		endless_cake$cake_original = CANDLES_TO_CANDLE_CAKES.get(candle);
 	}
 
 	@Inject(at = @At(value = "INVOKE_ASSIGN", target = "Ljava/util/Map;put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"), method = "<init>")
-	private void after(Block candle, AbstractBlock.Settings settings, CallbackInfo ci) {
+	private void endless_cake$after(Block candle, AbstractBlock.Settings settings, CallbackInfo ci) {
 		//noinspection ConstantConditions
 		if ((Object)this instanceof EndlessCandleCakeBlock)
 			CANDLES_TO_CANDLE_CAKES.put(candle, endless_cake$cake_original);
