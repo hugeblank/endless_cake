@@ -25,7 +25,7 @@ public class EndlessCakeBlock extends Block {
 
     public static final VoxelShape CAKE_SHAPE = Block.createCuboidShape(1.0D, 0.0D, 1.0D, 15.0D, 8.0D, 15.0D);
     public EndlessCakeBlock() {
-        super(Settings.of(Material.CAKE).strength(0.5F).sounds(BlockSoundGroup.WOOL));
+        super(Settings.of(Material.CAKE).strength(-1.0f, 3600000.0f).dropsNothing().sounds(BlockSoundGroup.WOOL));
         this.setDefaultState(this.stateManager.getDefaultState());
     }
 
